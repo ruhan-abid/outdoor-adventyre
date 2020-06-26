@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,600&display=swap');
+
+img{
+	max-width: 100%;
+	display: block;
+}
+
+*{
+	margin: 0;
+	padding: :0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+	background-image: url(../images/down.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	background-position: center;
+	background-color: #0000009c;
+	background-blend-mode: multiply;
+	padding: 15px 0;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    max-width: 20%;
+    flex-basis: 20%;
+}
+.logo h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+.logo h2 span{
+    font-weight: 100;
+    font-size: 15px;
+    display: block;
+}
+
+
+nav{
+    width: 80%;
+    flex-basis: 80%;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+nav ul li a:hover{}
+
+
+.banner-content{
+    max-width: 100%;
+    flex-basis: 100%;
+    text-align: center;
+    padding: 150px;
+}
+.banner-content h3{
+    color: white;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 100;
+}
+.banner-content span{
+    width: 100px;
+    height: 5px;
+    display: block;
+    background: #FB2056;
+    margin: 15px auto 0;
+}
+.bannre-content h1{
+	color: white;
+	font-size: 80px;
+	text-transform: uppercase;
+}
+.learnmore{
+    color: white;
+    background: #FB2056;
+    padding: 13px 30px;
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 30px;
+}@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,600&display=swap');
+*{
+	margin: 0;
+	padding: :0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+	background-image: url(../images/down.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: #0000009c;
+	background-blend-mode: multiply;
+	padding: 15px 0;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.flex{
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: flex-end;
+}
+.logo{
+    max-width: 20%;
+    flex-basis: 20%;
+}
+.logo h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+.logo h2 span{
+    font-weight: 100;
+    font-size: 15px;
+    display: block;
+}
+
+
+nav{
+    width: 80%;
+    flex-basis: 80%;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    /* border: 2px solid #ffffff; */
+    border-radius: 30px;
+}
+nav ul li a:hover{
+	border: 2px solid white;
+}
+nav ul li:last-child a{
+	border: 2px solid white;
+}
+
+.banner-content{
+    max-width: 100%;
+    flex-basis: 100%;
+    text-align: center;
+    padding: 200px 0;
+}
+.banner-content h3{
+    color: white;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 100;
+}
+.banner-content span{
+    width: 100px;
+    height: 5px;
+    display: block;
+    background: #FB2056;
+    margin: 15px auto 0;
+}
+.banner-content h1{
+	color: white;
+	font-size: 60px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.learnmore{
+    color: white;
+    background: #FB2056;
+    padding: 13px 30px;
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 30px;
+}
+
+
+.explore-section{
+	background-image: url(../images/nice.jpg);
+	padding: 100px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: #1a1e21e3;
+	background-blend-mode: darken;
+}
+.col-1-2{
+    flex-basis: 50%;
+    max-width: 50%;
+    justify-content: flex-end;
+}
+.explore-section h1,.explore-section p{
+	color: #fff;
+}
+
+.justify-end{
+	justify-content: flex-end;
+}
+.tours-section{
+	padding: 100px 0;
+}
+
+.col-1-3{flex-basis: 33.33%;max-width: 33.33%;padding: 10px;}
+.col-1-3 img{
+
+margin-bottom: 20px;
+}
+.large{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+.small{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.learnmore2{
+	color: red;
+	padding: 13px 30px;
+	display: inline-block;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.col-1-2 span{
+	width: 20%;
+	height: 5px;
+	display: block;
+	background: #FB2056;
+	margin: 10px;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.headline{
+	width: 100%;
+	flex-basis: 100%;
+	text-align: center;
+	padding: 80px 0px 0px;
+}
+.headline h1{
+	font-size: 60px;
+	text-transform: uppercase;
+}
+.headline span{
+	width: 100px;
+	height: 3px;
+	display: block;
+	background-color: red;
+	margin: 5px auto 10px;
+}
+.col{
+	max-width: 50%;
+    flex-basis: 50%;
+}
+.col1{
+	padding: 0px 30px;
+}
+.col h2{
+	font-size: 30px;
+	padding: 20px 0px 0px;
+	color: #222222;
+	text-transform: uppercase;
+}
+.col p{
+	font-size: 16px;
+	color: #898C8F;
+	padding: 20px 0px;
+}
+.col a{
+	color: red;
+	text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.col2{
+	padding: 0px 30px;
+}
+footer{
+	background-color: black;
+	padding: 50px 0px;
+}
+footer p{
+	font-size: 15px;
+	color: white;
+    text-align: center
+}
+.upcoming-event{
+
+}
+
+.event-section{
+	text-align: center;
+    padding: 80px 0px;
+}
+.col-1-3 h1{
+	font-size: 30px;
+    padding: 10px 0px;
+}
+.col-1-3 p{
+	font-size: 15px;
+    padding: 10px 0px;
+}
